@@ -1,9 +1,10 @@
-import Pokemon from './pokemon';
+import Pokemon from './Pokemon'
+import Home from './Home'
 
 function App() {
   return (
     <div>
-      <Pokemon />
+      <Home />
     </div>
   )
 }
