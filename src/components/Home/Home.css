@@ -1,0 +1,60 @@
+.home-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.searchbar {
+    box-shadow: 0 3px 5px 1px #444;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 40px
+}
+
+.image-container {
+    min-width: 192px;
+    min-height: 192px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 1s ease;
+    cursor: pointer
+}
+
+.image-container:hover {
+    min-width: 220px;
+    min-height: 220px;
+    transition: all 1s ease
+}
+
+.info-container {
+    min-width: 192px;
+    min-height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.pokemon-image {
+    height: 100%;
+    width: 100%
+}
+
+.pokemon-logo {
+    width: 450px;
+    height: 150px
+}
+
+.logo-container {
+    height: 30%
+}
